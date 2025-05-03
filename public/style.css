@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #222;
+}
+
+button,
+select {
+  width: 10em;
+  padding: 0.3em;
+  font-size: 1em;
+}
+
+#container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#submit-button {
+  margin-top: 1em;
+  width: fit-content;
+}
+
+#form-container form {
+  background-color: #6babff;
+  padding: 1em;
+  border-radius: 1em;
+  width: 30em;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-picker label {
+  display: inline-block;
+  width: 10em;
+}
+
+.my-picker {
+  margin: 0.8em;
+}
+
+.weather-card {
+  margin: 2em;
+  width: 30em;
+  padding: 1em;
+  border-radius: 1em;
+  background-color: #6babff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather-data {
+  display: flex;
+  justify-content: space-between;
+  width: 6em;
+}
+
+.weather-data p {
+  margin: 0;
+}
+
+.weather-card p {
+  font-weight: 600;
+}
+
+.weather-card h2 {
+  margin-bottom: 0;
+}
+
+

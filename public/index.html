@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Docker weather app</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="container">
+  <!-- formularz -->
+    <div id="form-container">
+      <form method="GET" action="/weather">
+        <h2>Lokalizacja</h2>
+        <div class="my-picker" id="form-country"></div>
+        <div class="my-picker" id="form-city"></div>
+        <div id="submit-button">
+          <button type="submit">Sprawdź pogodę</button>
+        </div>
+      </form>
+      <script src="location.js"></script>
+    </div>
+    <div id="result"></div>
+  </div>
+</body>
+</html>
