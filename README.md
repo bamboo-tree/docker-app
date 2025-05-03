@@ -2,6 +2,8 @@
 
 Prosty serwis pogodowy korzystający z API udostępnionego przez `https://openweathermap.org/`.
 
+![Weather app image](./img/docker-app-screenshot.png "Screenshot")
+
 ## Docker
 
 1. Zbudowanie obrazu `docker build -t docker-app .`
