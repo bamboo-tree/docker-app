@@ -2,7 +2,7 @@ const express = require('express');
 const axios = require('axios');
 require('dotenv').config();
 
-// API key is stored in .env
+// API w pliku .env
 
 // express
 const app = express();
@@ -32,5 +32,6 @@ app.get('/weather', async (req, res) => {
   }
 })
 
-// uruchomienie serwera
-app.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}`));
+// uruchomienie serwera // nie wiem czy to jest potrzebne bo wyszło zamieszanie z punktem 1?
+let meta_data = `http://localhost:${PORT}\nAutor: Maciej Kamiński\n${Date()}`
+app.listen(PORT, () => console.log(meta_data));
